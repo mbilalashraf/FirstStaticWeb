@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>TED Talks</title>
+  <link rel="stylesheet" type="text/css" href="Css/Css1.css">
+
+
+
+
+</head>
+<body>
+<div style="width: 1000px;">
+  <div style="height: 300px; width: 100%">
+    <div style="height: 50px; width: 100%">
+    <div style="height: 50px; width: 350px; float: left;"><a href="https://www.ted.com/"><img src="images/Ted logo.png" width="400px" height="50px"></a></div>
+      <div style="height: 50px; width: 600px; float: left; margin-left: 40px; text-align: center;" class="li1">  
+        <div class="watchbtn" style="width: 100px; height: 50px;">
+          <a class="watch" style="text-align: center; font-size: 15px;"><b>WATCH</b>
+    </a>
+    <div class="watch-content">
+      <a href="https://www.ted.com/talks">TED Talks</a>
+      <a href="https://www.ted.com/playlists">Playlists</a>
+      <a href="https://www.ted.com/watch/ted-ed">Ted-Ed Videos</a>
+      <a href="https://www.ted.com/watch/tedx-talks">TEDx Talks</a>
+      <a href="https://www.ted.com/surpriseme">Surprise Me</a>
+    </div>
+  </div> 
+    <div class="discoverbtn" style="width: 100px; height: 50px;">
+          <a class="discover" style="text-align: center; font-size: 15px;"><b>DISCOVER</b>
+    </a>
+    <div class="discover-content">
+      <a href="https://www.ted.com/topics">Topics</a>
+      <a href="https://www.ted.com/read/ted-books">TED Books</a>
+      <a href="https://ideas.ted.com">Ideas Blog</a>
+      <a href="https://www.ted.com/newsletter">NewsLetter</a>
+      </div>
+      </div>
+
+      <div class="attendbtn" style="width: 100px; height: 50px;">
+          <a class="attend" style="text-align: center; font-size: 15px;"><b>ATTEND</b>
+    </a>
+    <div class="attend-content">
+      <a href="https://www.ted.com/attend/conferences">Conferences</a>
+      <a href="https://www.ted.com/tedx/events">TEDx Events</a>
+      <a href="https://www.ted.com/attend/ted-on-screen">TED on screen</a>
+      </div>
+      </div>
+
+      <div class="participatebtn" style="width: 100px; height: 50px;">
+          <a class="participate" style="text-align: center; font-size: 13px;"><b>PARTICIPATE</b>
+    </a>
+    <div class="participate-content">
+      <a href="https://www.ted.com/participate/nominate">Nominate</a>
+      <a href="https://www.ted.com/participate/organize-a-local-tedx-event">Organize a local TEDx Event</a>
+      <a href="https://www.ted.com/participate/translate">Translate</a>
+      <a href="https://www.ted.com/participate/ted-prize">TED Prize</a>
+      <a href="https://www.ted.com/participate/ted-fellows-program">TED Fellows</a>
+      </div>
+      </div>
+
+      <div class="aboutbtn" style="width: 100px; height: 50px;">
+          <a class="about" style="text-align: center; font-size: 15px;"><b>ABOUT</b>
+    </a>
+    <div class="about-content">
+      <a href="https://www.ted.com/about/our-organization">Our Organization</a>
+      <a href="https://www.ted.com/about/conferences">Conferences</a>
+      <a href="https://www.ted.com/about/programs-initiatives">Programs & Initiatives</a>
+      <a href="https://www.ted.com/about/partner-with-ted">Partner with TED</a>
+      <a href="https://blog.ted.com/">TED Blog</a>
+      </div>
+      </div>
+</div>
+</div><hr>
+    <div style="text-align: center; height: 100px; width: 100%"><p style="font-size: 50px; margin-top: 0px;"><b>2500+ talks</b> to stir your curiosity</p><br>
+         <p style="font-size: 25px; margin-top: -60px;">Find just the right one</p></div>
+    <div style="height: 50px; width: 100%;" class="li2">
+        <ul>
+        <li><input type="Search" name="" value="Search Talks...." class="Search_Talks"></li>
+        <li><select  class="Topics">
+        <option selected="">Topics</option>
+        <option disabled=""><b>Popular Topics</b></option>
+        <option>Technology</option>
+        <option>Entertainment</option>
+        <option>Design</option>
+        <option>Business</option>
+        <option>Science</option>
+        <option>Global Issues</option>
+        <option disabled=""></option>
+        <option>See all topics</option>
+        </select></li>
+        <li><select class="Languages">
+        <option selected="">Languages</option>
+        <option disabled=""><b>Top Languages</b></option>
+        <option>English</option>
+        <option>Español</option>
+        <option>ひらがな or 平仮名</option>
+        <option>Português</option>
+        <option>汉字/漢字</option>
+        <option>한국어/조선말</option>
+        <option disabled=""></option>
+        <option>See all Languages</option>
+        </select></li>  
+        <li><select class="Duration">
+        <option selected="">Duration</option>
+        <option>0-6 Minutes</option>  
+        <option>6-12 Minutes</option>
+        <option>12-18 Minutes</option>
+        <option>18+ Minutes</option>
+        </select></li>
+        <li><input type="button" name="btn1" value="More" id="More_Button"></li>
+        <script type="text/javascript">
+        document.getElementById('More_Button').onclick = function() {
+          document.getElementById('MoreDiv').style.display = "block"; 
+        }
+        </script>
+        </ul>
+        <div id="MoreDiv" style="display: none; height: 20px;">
+        <select>
+        <option>Event</option>  
+        </select>
+        <a href=""><input type="button" name="" value="Find a Speaker"></a> </div>
+    </div>
+    <div style="height: 50px; width: 100%; text-align: right; font-weight: bolder; font-size: 18px;">Sort by:    
+    <select style="float: right;" class="Sort_By"><option disabled="">Sort By</option>
+        <option selected="">Newest</option>
+        <option>Oldest</option>
+        <option>Most Viewed</option>
+        <option>Jaw-Dropping</option>
+        <option>Funny</option>
+        <option>Persuasive</option>
+        <option>Courages</option>
+        <option>Ingenious</option>
+        <option>Fascinating</option>
+        <option>Inspiring</option>
+        <option>Beautiful</option>
+        <option>Informative</option>
+    </select></div>
+  </div>
+  <hr>
+  <div style="width: 100%; height: 800px" class="Videos">
+    <a href="https://www.ted.com/talks/helen_pearson_lessons_from_the_longest_study_on_human_development" style="float: left; margin-left: 30px;">
+      <div style="max-width:220px"><div style="position:relative;height:0;padding-bottom:56.25%"><iframe src="https://embed.ted.com/talks/helen_pearson_lessons_from_the_longest_study_on_human_development" width="220" height="250" style="position:absolute;left:0;top:0;width:100%;height:100%" frameborder="0" scrolling="no" allowfullscreen></iframe></div></div> <caption>Helen Pearson<br>
+Lessons from the longest study<br> on human development</caption>
+    </a>
+    <a href="https://www.ted.com/talks/euna_lee_what_i_learned_as_a_prisoner_in_north_korea" style="float: left; margin-left: 30px">
+     <div style="max-width:220px"><div style="position:relative;height:0;padding-bottom:56.25%"><iframe src="https://embed.ted.com/talks/euna_lee_what_i_learned_as_a_prisoner_in_north_korea" width="220" height="250" style="position:absolute;left:0;top:0;width:100%;height:100%" frameborder="0" scrolling="no" allowfullscreen></iframe></div></div> <caption>Euna Lee<br>
+What I learned as a prisoner<br> in North Korea</caption>
+    </a>
+    <a href="https://www.ted.com/talks/christian_rodriguez_what_teen_pregnancy_looks_like_in_latin_america" style="float: left; margin-left: 30px;">
+      <div style="max-width:220px"><div style="position:relative;height:0;padding-bottom:56.25%"><iframe src="https://embed.ted.com/talks/christian_rodriguez_what_teen_pregnancy_looks_like_in_latin_america" width="220" height="250" style="position:absolute;left:0;top:0;width:100%;height:100%" frameborder="0" scrolling="no" allowfullscreen></iframe></div></div> <caption>Christian Rodríguez <br>
+What teen pregnancy looks <br> like in Latin America</caption>
+    </a>
+    <a href="https://www.ted.com/talks/anna_heringer_the_warmth_and_wisdom_of_mud_buildings" style="float: left; margin-left: 30px;">
+      <div style="max-width:220px"><div style="position:relative;height:0;padding-bottom:56.25%"><iframe src="https://embed.ted.com/talks/anna_heringer_the_warmth_and_wisdom_of_mud_buildings" width="220" height="250" style="position:absolute;left:0;top:0;width:100%;height:100%" frameborder="0" scrolling="no" allowfullscreen></iframe></div></div> <caption>Anna Heringer<br>
+The warmth and wisdom of<br> mud buildings</caption>
+    </a>
+    <a href="https://www.ted.com/talks/julio_gil_future_tech_will_give_you_the_benefits_of_city_life_anywhere" style="float: left; margin-left: 30px; margin-top: 30px">
+      <div style="max-width:220px"><div style="position:relative;height:0;padding-bottom:56.25%"><iframe src="https://embed.ted.com/talks/julio_gil_future_tech_will_give_you_the_benefits_of_city_life_anywhere" width="220" height="250" style="position:absolute;left:0;top:0;width:100%;height:100%" frameborder="0" scrolling="no" allowfullscreen></iframe></div></div> <caption>Julio Gil<br>
+Future tech will give you the<br> benefits of city life anywhere</caption>
+    </a>
+    <a href="https://www.ted.com/talks/nabila_alibhai_why_people_of_different_faiths_are_painting_their_houses_of_worship_yellow" style="float: left; margin-left: 30px; margin-top: 30px;">
+      <div style="max-width:220px"><div style="position:relative;height:0;padding-bottom:56.25%"><iframe src="https://embed.ted.com/talks/nabila_alibhai_why_people_of_different_faiths_are_painting_their_houses_of_worship_yellow" width="220" height="250" style="position:absolute;left:0;top:0;width:100%;height:100%" frameborder="0" scrolling="no" allowfullscreen></iframe></div></div> <caption>Nabila Alibhai<br>
+Why people of different faiths<br> are painting their <br>houses of worship yellow</caption>
+    </a>
+    <a href="https://www.ted.com/talks/mei_lin_neo_the_fascinating_secret_lives_of_giant_clams" style="float: left; margin-left: 30px; margin-top: 30px;">
+      <div style="max-width:220px"><div style="position:relative;height:0;padding-bottom:56.25%"><iframe src="https://embed.ted.com/talks/mei_lin_neo_the_fascinating_secret_lives_of_giant_clams" width="220" height="250" style="position:absolute;left:0;top:0;width:100%;height:100%" frameborder="0" scrolling="no" allowfullscreen></iframe></div></div> <caption>Mei Lin Neo
+The fascinating <br>secret lives of giant clams</caption>
+    </a>
+  <a href="https://www.ted.com/talks/anindya_kundu_the_boost_students_need_to_overcome_obstacles"  style="float: left; margin-left: 30px; margin-top: 30px;">
+    <div style="max-width:220px"><div style="position:relative;height:0;padding-bottom:56.25%"><iframe src="https://embed.ted.com/talks/anindya_kundu_the_boost_students_need_to_overcome_obstacles" width="220" height="250" style="position:absolute;left:0;top:0;width:100%;height:100%" frameborder="0" scrolling="no" allowfullscreen></iframe></div></div><caption>Anindya Kundu<br>
+The boost students need <br>to overcome obstacles</caption>
+  </a>
+  <a href="https://www.ted.com/talks/karoliina_korppoo_how_a_video_game_might_help_us_build_better_cities" style="float: left; margin-left: 30px; margin-top: 30px;">
+    <div style="max-width:220px"><div style="position:relative;height:0;padding-bottom:56.25%"><iframe src="https://embed.ted.com/talks/karoliina_korppoo_how_a_video_game_might_help_us_build_better_cities" width="220" height="250" style="position:absolute;left:0;top:0;width:100%;height:100%" frameborder="0" scrolling="no" allowfullscreen></iframe></div></div><caption>Karoliina Korppoo<br>
+How a video game might <br> helpus build better cities</caption>
+  </a>
+  <a href="https://www.ted.com/talks/theo_e_j_wilson_a_black_man_goes_undercover_in_the_alt_right" style="float: left; margin-left: 30px; margin-top: 30px;">
+<div style="max-width:220px"><div style="position:relative;height:0;padding-bottom:56.25%"><iframe src="https://embed.ted.com/talks/theo_e_j_wilson_a_black_man_goes_undercover_in_the_alt_right" width="220" height="250" style="position:absolute;left:0;top:0;width:100%;height:100%" frameborder="0" scrolling="no" allowfullscreen></iframe></div></div><caption>Theo E.J. Wilson<br>
+A black man goes undercover<br> in the alt-right</caption>
+  </a>
+  <a href="https://www.ted.com/talks/radhika_nagpal_what_intelligent_machines_can_learn_from_a_school_of_fish" style="float: left; margin-left: 30px; margin-top: 30px;">
+    
+    <div style="max-width:220px"><div style="position:relative;height:0;padding-bottom:56.25%"><iframe src="https://embed.ted.com/talks/radhika_nagpal_what_intelligent_machines_can_learn_from_a_school_of_fish" width="220" height="220" style="position:absolute;left:0;top:0;width:100%;height:100%" frameborder="0" scrolling="no" allowfullscreen></iframe></div></div><caption>Radhika Nagpal<br>
+What intelligent machines can <br>learn from a school of fish</caption>
+  </a>
+  <a href="https://www.ted.com/talks/armando_azua_bustos_the_most_martian_place_on_earth" style="float: left; margin-left: 30px; margin-top: 30px;">
+    <div style="max-width:220px"><div style="position:relative;height:0;padding-bottom:56.25%"><iframe src="https://embed.ted.com/talks/armando_azua_bustos_the_most_martian_place_on_earth" width="220" height="250" style="position:absolute;left:0;top:0;width:100%;height:100%" frameborder="0" scrolling="no" allowfullscreen></iframe></div></div><caption>Armando Azua-Bustos<br>
+The most Martian<br> place on Earth</caption>
+  </a>
+  </div>
+  Pages <a href="WebPage1.html" onclick="Pag1()">| 1</a><a href="WebPage2.html" onclick="Page2()"> | 2</a>
+
+  <hr size="3" style="background-color:  red">
+  <div style="height: 350px; width: 100%">
+    <div style="height: 300px; width: 100%; float: left">
+    <div style="height: 300px; width: 150px; float: left;"><a href="https://www.ted.com/"><img src="images/TED.png" width="120px" height="100px"></a></div>
+    <div style="height: 300px; width: 125px; float: left;" class="li3">
+    <ul>
+    <li><b>Programs & <br>Initiatives</b></li><br>
+    <li><a href="https://www.ted.com/about/programs-initiatives/tedx-program">TEDx</a></li>
+    <li><a href="https://www.ted.com/about/programs-initiatives/ted-prize">TED Prize</a></li> 
+    <li><a href="https://www.ted.com/about/programs-initiatives/ted-fellows-program">TED Fellows</a></li>
+    <li><a href="https://www.ted.com/about/programs-initiatives/ted-ed">TED Ed</a></li>
+    <li><a href="https://www.ted.com/about/programs-initiatives/ted-translators">TED<br>Translators</a></li>
+    <li><a href="https://www.ted.com/about/programs-initiatives/ted-books">TED Books</a></li>
+    <li><a href="https://www.ted.com/about/programs-initiatives/ted-institute">TED Institute</a></li>
+    </ul>
+    </div>  
+    <div style="height: 300px; width: 125px; float: left;" class="li4">
+    <ul>
+    <li><b>Ways to get<br>TED</b></li><br>
+    <li><a href="http://www.npr.org/programs/ted-radio-hour/?showDate=2017-10-20" target="_blank">TED Radio<br>Hour on NPR</a></li> 
+    <li><a href="https://www.ted.com/about/programs-initiatives/ted-talks/ways-to-get-ted-talks">More Ways to <br>get TED</a></li>
+    </ul> 
+    </div>
+    <div style="height: 300px; width: 125px; float: left;" class="li5">
+    
+    <ul>
+    <li><b>Follow TED</b></li><br>
+    <li><a href="https://www.facebook.com/TED" target="_blank">Facebook</a></li>
+    <li><a href="https://twitter.com/tedtalks" target="_blank">Twitter</a></li> 
+    <li><a href="https://plus.google.com/+TED" target="_blank">Google+</a></li>
+    <li><a href="https://www.pinterest.com/tednews/" target="_blank">Pinterest</a></li>
+    <li><a href="https://www.instagram.com/ted/" target="_blank">Instagram</a></li>
+    <li><a href="https://www.youtube.com/ted" target="_blank">Youtube</a></li>
+    <li><a href="https://blog.ted.com/">TED Blog</a></ul>
+    </ul> 
+    </div>
+    <div style="height: 300px; width: 125px; float: left;" class="li6">
+    <ul>
+    <li><b>Our<br>Community</b></li><br>
+    <li><a href="https://www.ted.com/people/speakers">TED Speakers</a></li>
+    <li><a href="https://www.ted.com/people/fellows">TED Fellows</a></li>
+    <li><a href="https://www.ted.com/people/translators">TED <br>Translators</a></li>
+    <li><a href="https://www.ted.com/people/tedx">TEDx<br>Organizers</a></li>
+    <li><a href="https://www.ted.com/people">TED<br>Community</a></li>
+    </ul>
+    </div>
+    <div style="height: 300px; width: 350px; float: left; font-size:13px;" class="TED_Email"> 
+    <ul>
+    <li><b style="color: black;">Get TED email updates</b></li><br>
+    <li>Subscribe to receive email<br> notifications whenever new talks<br> are published.</li><br>
+    <li> <input type="Checkbox" name="chkbox1" value="Daily" checked="">Daily
+        <input type="Checkbox" name="chkbox1" value="Daily">Weekly</li><br>
+        <li>Your Email Address<br>
+        <input type="text" name="txt1" id="Email">
+        </li><br>
+         <li><div style="width: 100%; height: 20px" id="EmailDiv"></div></li>
+        <li><input type="button" name="btn2" value="Submit" class="Submit_Button" id="Sbmtbtn">
+        </li>
+        <script type="text/javascript">
+        document.getElementById('Sbmtbtn').onclick = function(){
+          var a = document.getElementById('Email').value;
+          if(a == ""){
+            document.getElementById('EmailDiv').innerHTML = "Please Enter an Email Address";
+          }
+        } 
+        </script>
+    </ul>
+    </div>
+    </div>
+    <div style="height: 50px; width: 100%; background-color: black; float: left;" class="li7">
+      <ul>
+      <li><a href="https://www.ted.com/about/our-organization/our-policies-terms/ted-talks-usage-policy">Ted Talks Usage Policy</a></li>
+      <li><a href="https://www.ted.com/about/our-organization/our-policies-terms/privacy-policy">Privacy Policy</a></li>
+      <li><a href="https://www.ted.com/about/partner-with-ted">Advertising/Partnership</a></li>
+      <li><a href="https://www.ted.com/about/our-organization/our-policies-terms/ted-com-terms-of-use">TED.com Terms of use</a></li>
+      <li><a href="https://support.ted.com/customer/portal/emails/new" target="_blank">Contact</a></li> 
+      <li><a href="https://www.ted.com/about/our-organization/jobs-at-ted">Jobs</a></li>
+      <li><a href="https://www.ted.com/about/our-organization/contact-us/press-and-media-information">Press</a></li>
+      <li><a href="https://support.ted.com/">Help</a></li>
+      <li style="color: grey">© TED Conferences, LLC</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,353 @@
+
+.li1 ul li{
+	display: inline;
+	padding: 5px;
+}
+.li1 ul li:hover {
+background: grey; 
+}
+
+.li2 ul li{
+	display: inline;
+	padding: 10px;
+	}
+
+.li3 ul li{
+	display: block;
+	padding: 3px;
+	font-size: 13px;
+}
+.li3 ul li a{
+	color: #FA58AC;
+	font-size: 14px;
+}
+.li3 ul li a:hover{
+    color: black;
+}
+
+.li4 ul li{
+	display: block;
+    padding: 3px;
+    font-size: 13px;
+}
+.li4 ul li a{
+	color: #FA58AC;
+	font-size: 14px;
+}
+.li4 ul li a:hover{
+    color: black;
+}
+.li5 ul li{
+	display: block;
+	padding: 3px;
+	font-size: 13px;
+}
+.li5 ul li a{
+	color: #FA58AC;
+	font-size: 14px;
+}
+.li5 ul li a:hover{
+    color: black;
+}
+.li6 ul li{
+	display: block;
+	padding: 3px;
+	font-size: 13px;
+}
+.li6 ul li a{
+	color: #FA58AC;
+	font-size: 14px;
+}
+.li6 ul li a:hover{
+    color: black;
+}
+.li7 ul li{
+	display: inline;
+	padding: 2px;
+}
+.li7 ul li a{
+	color: white;
+	font-size: 14px;
+	padding: 3px;
+}
+a{
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: underline;
+}
+.TED_Email{
+	color: #FA58AC;
+}
+.TED_Email ul li{
+	display: block;
+}
+.Search_Talks{
+	border-radius: 5px;
+	width: 160px;
+	height: 35px;
+	text-align: left;
+}
+.Topics{
+	border-radius: 5px;
+	width: 160px;
+	height: 35px;
+	text-align: left;
+}
+.Languages{
+	border-radius: 5px;
+	width: 160px;
+	height: 35px;
+	text-align: left;
+}
+.Duration{
+	border-radius: 5px;
+	width: 160px;
+	height: 35px;
+	text-align: left;
+}
+.More_Button{
+	border-radius: 5px;
+	width: 100px;
+	height: 35px;
+	text-align: center;
+	font-weight: bolder;
+}
+.Sort_By{
+	border-radius: 5px;
+	width: 160px;
+	height: 35px;
+	text-align: left;
+}
+.Submit_Button{
+	border-radius: 5px;
+	width: 100px;
+	height: 35px;
+	text-align: center;
+	font-weight: bolder;
+}
+.Search_top{
+	 position: absolute;
+  top: 50%;
+  margin-left: 17px;
+  margin-top: 17px;
+  z-index: 1;
+  color: #4f5b66;
+}
+.watch {
+    background-color: white;
+    color: black;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.watchbtn {
+    position: relative;
+    display: inline-block;
+}
+
+.watch-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.watch-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.watch-content a:hover {background-color: #f1f1f1}
+
+.watchbtn:hover .watch-content {
+    display: block;
+}
+
+.watchbtn:hover .watch {
+    background-color: #f9f9f9;
+}
+.discover {
+    background-color: white;
+    color: black;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.discoverbtn {
+    position: relative;
+    display: inline-block;
+}
+
+.discover-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.discover-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.discover-content a:hover {background-color: #f1f1f1}
+
+.discoverbtn:hover .discover-content {
+    display: block;
+}
+
+.discoverbtn:hover .discover{
+    background-color: #f9f9f9;
+}
+}
+.attend {
+    background-color: white;
+    color: black;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.attendbtn {
+    position: relative;
+    display: inline-block;
+}
+
+.attend-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.attend-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.attend-content a:hover {background-color: #f1f1f1}
+
+.attendbtn:hover .attend-content {
+    display: block;
+}
+
+.attendbtn:hover .attend {
+    background-color: #f9f9f9;
+}
+.participate {
+    background-color: white;
+    color: black;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.participatebtn {
+    position: relative;
+    display: inline-block;
+}
+
+.participate-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.participate-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.participate-content a:hover {background-color: #f1f1f1}
+
+.participatebtn:hover .participate-content {
+    display: block;
+}
+
+.participatebtn:hover .participate {
+    background-color: #f9f9f9;
+}
+.about {
+    background-color: white;
+    color: black;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.aboutbtn {
+    position: relative;
+    display: inline-block;
+}
+
+.about-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.about-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.about-content a:hover {background-color: #f1f1f1}
+
+.aboutbtn:hover .about-content {
+    display: block;
+}
+
+.aboutbtn:hover .about {
+    background-color: #f9f9f9;
+}
+.Submit_Button{
+	cursor: pointer;
+}
+.Events{
+
+	border-radius: 5px;
+	width: 160px;
+	height: 35px;
+	text-align: left;
+}
+.FAS{
+
+	border-radius: 5px;
+	width: 159px;
+	height: 35px;
+	text-align: left;
+}
+.Videos a:hover{
+	color: grey;
+	text-decoration: none;
+}
